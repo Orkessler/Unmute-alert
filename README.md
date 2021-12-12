@@ -27,12 +27,14 @@ Python modules for:
 * threading
 
 ## Usage
-This sample version uses your webcam, so make sure that the device you are using has one. Also make sure that the sound input on the device is working properly
+This sample version uses your webcam, so make sure that the device you are using has one.
+
+Also make sure that the sound input on the device is working properly
 #### To run the code
 ```bash
 python temp.py
 ```
 
 
-![sample gif](./mouth_open.gif)
+![sample gif](./my_unmute_detection.gif)
 
