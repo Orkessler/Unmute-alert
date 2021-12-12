@@ -32,7 +32,7 @@ This sample version uses your webcam, so make sure that the device you are using
 Also make sure that the sound input on the device is working properly
 #### To run the code
 ```bash
-python unmute_alert.py
+python detect_videofile_mouth.py
 ```
 
 
