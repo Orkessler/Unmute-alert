@@ -1,8 +1,11 @@
-# mouth-open
+# Unmute-alert
+
 Identifies when you're talking on a "mute" mode during an online meeting.
 
 We detect a situation of opening the mouth and playing sound and only then send an alert to the user who is on mute.
+
 This way the user does not get an alert when he just opens his mouth.
+
 And also there is no alert in case of external sound that does not come from the user's speech.
 
 
@@ -31,5 +34,5 @@ python temp.py
 ```
 
 
-![sample gif](./video/mouth_open.gif)
+![sample gif](./mouth_open.gif)
 
