@@ -1,5 +1,10 @@
 # mouth-open
-Identifies when you're talking on a "mute" mode during an online meeting
+Identifies when you're talking on a "mute" mode during an online meeting.
+
+We detect a situation of opening the mouth and playing sound and only then send an alert to the user who is on mute.
+This way the user does not get an alert when he just opens his mouth.
+And also there is no alert in case of external sound that does not come from the user's speech.
+
 
 ## Referenced Code
 
@@ -25,7 +30,6 @@ This sample version uses your webcam, so make sure that the device you are using
 python temp.py
 ```
 
-[dlib shape predictor](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat)
 
 ![sample gif](./video/mouth_open.gif)
 
