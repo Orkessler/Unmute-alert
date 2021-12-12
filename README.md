@@ -1,5 +1,5 @@
 # mouth-open
-Detecting when a human's mouth is open
+Identifies when you're talking on a "mute" mode during an online meeting
 
 ## Referenced Code
 
