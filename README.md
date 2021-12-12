@@ -3,9 +3,9 @@ Detecting when a human's mouth is open
 
 ## Referenced Code
 
-[Adrian Rosebrock - drowsiness detection](https://www.pyimagesearch.com/2017/05/08/drowsiness-detection-opencv/)
+[mauckc - mouth-open](https://github.com/mauckc/mouth-open)
 
-I was interested in implementing a similar function for calculating the aspect ratio of the mouth instead of both eyes. 
+I was interested in recognizing the open mouth, and in absorbing a change in sound to recognize the person's speech in front of the camera
 
 ## Dependencies
 Python modules for:
@@ -14,20 +14,18 @@ Python modules for:
 * numpy
 * dlib
 * cv2
+* pyaudio
+* wave
+* threading
 
 ## Usage
-This sample version uses your webcam, so make sure that the device you are using has one.  Otherwise, you will need to change the code to take in a video file.
-
+This sample version uses your webcam, so make sure that the device you are using has one. Also make sure that the sound input on the device is working properly
 #### To run the code
 ```bash
-python detect_open_mouth.py
+python temp.py
 ```
 
 [dlib shape predictor](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat)
 
 ![sample gif](./video/mouth_open.gif)
 
-![sample gif](./video/facial_landmarks_68markup-768x619.jpg)
-
-
-![trump-mouth](./video/out_trump.gif)
